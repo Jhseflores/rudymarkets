@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-shadow: #f2f2f2;
+}
+header{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border: 3px solid darkgray;
+    position: sticky;
+    top: 0;
+    background-color: rgb(174, 101, 5);
+    z-index: 5;
+}
+header p {
+    color: #f2f2f2;
+    font-size: 10px;
+    text-align: center;
+    border: solid rgb(71, 65, 0);
+    position: sticky;
+    top: 0;
+    padding: 5px 10px;
+}
+nav {
+   width: 100%;
+   height: 60px;
+   background-color: burlywood;
+   text-align: right;
+}
+.logo{
+    float: right;
+    margin: 9px 30px;
+
+}
+nav ul{
+    list-style-type: none;
+    float: right;
+}
+nav li{
+    display: inline-block;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+.herosection{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(66, 28, 10);
+    background-image: linear-gradient(to right, rgba(22, 3, 3, 0.5), rgba(0, 0, 0, 0.5)), url(./media/website\ background.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero-text{
+    width: 500px;
+    height: 500px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+aside{
+    height: 500px;
+    width: 50%;
+    text-align: center;
+    border: 3px solid #000;
+    float: right;
+}
+section, article{
+    height: 250px;
+    width: 50%;
+    text-align: center;
+    border: 3px solid #000;
+    float: left;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    border: 3px solid #000;
+    clear: both;
+}
