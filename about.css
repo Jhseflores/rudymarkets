@@ -1,45 +1,75 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;1,300&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background:rgba(0, 0, 0, 0.5) url(./media/website\ background.avif);
+    background-size: cover;
+    background-blend-mode: darken;
 }
-header{
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    border: 3px solid rgb(178, 178, 178);
-    position: sticky;
-    top: 0;
-    background-color: burlywood;
-    z-index: 5;
-}
-header p{
-    color: #f2f2f2;
+html {
     font-size: 10px;
+}
+
+body{
+    background:url(./media/website\ background.avif);
+    background-position: 0, 1000px;
+    font-family: 'raleway', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0, 3rem;
+    margin-top: 4rem;
     text-align: center;
-    border: solid rgb(71, 65, 0);
-    position: sticky;
-    top: 0;
-    padding: 5px 10px;
-}
-nav {
-    width: 100%;
-   height: 60px;
-   background-color: burlywood;
-   text-align: right;
-    list-style: none;
-    float: right;
 }
 
+h1{
+    color:rgb(238, 255, 0);
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 2rem;
+}
 
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    font-weight: 400;
+}
+h3 {
+    color: rgb(228, 211, 191);
+    font-size: 4rem;
+    font-weight: 400;
+}
+.image {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    clip-path: circle();
+    size: 8px;
+}
+p {
+    font-size: 2rem;
+    color: #fff;
+    line-height: 5rem;
+    margin-bottom: 5rem;
+}
 
-
-
-
-
-
+.btn {
+    display: inline-block;
+    padding: 2.7rem 7.5rem;
+    background: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+    color: burlywood;
+    border-radius: 10px;
+    transition: background 1.55 s;
+}
+.btn:hover {
+    background: rgb(141, 129, 129);
+}
 
 
 nav ul a li:hover{
@@ -64,14 +94,7 @@ nav ul a:hover{
 nav ul a:active{
     color: purple;
     ] */
-main{
-    width: 100%;
-    height: 500px;
-    background-color: brown;
-    background-image: url(./media/marketing.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+
 }
 .hero-copy{
     width: 400px;
@@ -88,31 +111,12 @@ main{
     */ border-radius: 15px;
     /* position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
-}
-.hero-copy h2{
-    text-shadow: 1px 1px rgba(136, 136, 136, 0.58) ;
-    text-transform: uppercase;
-}
-aside{
-    height: 500px;
-    width: 50%;
-    text-align: center;
-    border: 3px solid rgb(235, 235, 235);
-    float: right;
-}
-section, article{
-    height: 250px;
-    width: 50%;
-    text-align: center;
-    border: 3px solid #000;
-    float: left;
-}
+    left: 5
 footer{
     width: 100%;
     height: 60px;
     text-align: center;
     border: 3px solid #000;
     clear: both;
+    float: left;
 }

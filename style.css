@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet");
 
 *{
     margin: 0;
@@ -50,7 +50,7 @@ nav li{
     height: 700px;
     width: 100%;
     background-color: rgb(66, 28, 10);
-    background-image: linear-gradient(to right, rgba(22, 3, 3, 0.5), rgba(0, 0, 0, 0.5)), url(./media/website\ background.avif);
+    background-image: linear-gradient(to right, rgba(242, 235, 235, 0.5), rgba(0, 0, 0, 0.5)), url(./media/website\ background.avif);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -66,18 +66,13 @@ nav li{
     transform: translate(-50%, -50%);
 }
 
-
-
-
-
-
-
 aside{
     height: 500px;
     width: 50%;
     text-align: center;
     border: 3px solid #000;
     float: right;
+    background-image: linear-gradient(tan, black);
 }
 section, article{
     height: 250px;
@@ -85,6 +80,7 @@ section, article{
     text-align: center;
     border: 3px solid #000;
     float: left;
+    background-image: linear-gradient(tan, purple);
 }
 footer{
     width: 100%;
